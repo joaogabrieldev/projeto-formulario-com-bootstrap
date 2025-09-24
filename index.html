@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulário com Bootstrap</title>
+    <style>
+        .caixa {
+            font-weight: bold;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-sm">
+        <h1>Formulário com Bootstrap</h1>
+        <div class="card caixa">
+            <div class="card-header bg-primary text-white">
+                Cadastro de Professor
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="txtNome">Nome: </label>
+                    <input type="text" name="txtNome" id="txtNome" class="form-control">
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="">Nome da Mãe: </label>
+                        <input type="text" name="" id="" class="form-control">
+                    </div>
+                    <div class="col-6">
+                        <label for="">Nome da Pai: </label>
+                        <input type="text" name="" id="" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label for="">Data de Nascimento: </label>
+                        <input type="date" name="" id="" class="form-control">
+                    </div>
+                    <div class="col-4">
+                        <label for="">E-mail: </label>
+                        <input type="email" name="" id="" class="form-control">
+                    </div>
+                    <div class="col-4">
+                        <label for="">Telefone: </label>
+                        <input type="tel" name="" id="" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col-3">
+                        <button type="button" class="btn btn-primary form-control">Salvar</button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="btn btn-primary form-control">Pesquisar</button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="btn btn-primary form-control">Excluir</button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="btn btn-primary form-control">Sair</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
